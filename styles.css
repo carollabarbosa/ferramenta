@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=PT+Serif:ital,wght@0,400;1,400;1,700&family=Poppins:ital,wght@0,100;0,500;1,200&family=Prompt:ital,wght@1,300&display=swap');
+
+body{
+	background-color: rgb(235, 250, 250);
+	color: #003366;
+	font-family: 'Poppins', sans-serif;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+#title{
+	flex-direction: column;
+	line-height: 10px;
+}
+
+li{
+	display: inline-block;
+	margin: 20px;
+}
+
+a:hover{
+	color:rgb(255, 102, 0);
+	transition: 0.3s ali;
+	
+	
+}
+h1{
+	font-wight: 200;
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+h2{
+	font-size: 50px;
+	line-height: 10px;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+
+span{
+	color:rgb(255, 102, 0);
+}
+p{
+	lin-height: 20px;
+	max-width: 500px;
+	font-family: 'Poppins', sans-serif;
+}
+
+img{
+	width: 520px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	
+}
+
+form [type="submit"]{
+	height: 50px;
+	width: 90px;
+	background-color:rgb(255, 102, 0);
+	color: #ffffff;
+	font-weight: bold;
+}
+
+form [type="submit"]:hover{
+	cursor: pointer;
+}
+
+input{
+	margin-top: 25px;
+	height: 20px;
+	padding: 15px;
+	border-radius: 20px;
+	border: none;
+	font-size: 15px;
+	
+}
